@@ -8,23 +8,21 @@
 </head>
 <body>
     <script>
-    //Array
-    let color = ['red', 'blue','green'];
-    //alert(color[0]);
-    let color2 = new Array('green', 'red', 'yellow');
-    //----------------------
-    var colors = new Array();
-        color[0] = 'red';
-        color[1] = 'red';
-        color[2] = 'red';
-    color2[4] = 'new';
-    //alert(color2);
-    //---------------------
-    color2.push(999);
-    color2.push("HELLO");
-    var numbers = [6, 5, 2, 1, 5, 9, 900];
-    alert(numbers.sort());
-    alert(numbers.reverse());
+    //loop
+    for(let x = 0; x<10; x++){
+        // console.log(x);
+    }
+    let x = 0;
+    while(x < 1111){
+        // console.log(x);
+        x++;
+    }
+    //for each
+    let numbers = [4, 3, 2 , 44, 55, 66];
+    numbers.reverse();
+    numbers.forEach(function(number){
+        console.log(number);
+    })
     </script>
 </body>
 </html>
