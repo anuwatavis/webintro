@@ -7,19 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    //constructure patten
     <script>
-        var person = {
-            a:"ANUWAT",
-            lastName:"SUKTHONG",
-            age:19,
-            car : ["anu", "wat"],
-            ageNext:function(a){
-                return this.age+1;
-            }
-        };
-        console.log(person);
-        console.log(person.ageNext(10));
-
+        function Ball(name, color, shape){
+            this.name = name;
+            this.color = color;
+            this.shape = shape;
+        }
+        let apple = new Ball("anuwat", "red", "shape");
+        console.log(apple);
+    
+    
     </script>
 </body>
 </html>
