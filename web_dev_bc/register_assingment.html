@@ -43,7 +43,7 @@
         <div>
         <!-- Normally we'd have a label for each field, but since these 3 select drop downs go together, we'll just use one and make it match up to the first select field (month) -->
         <label for="select-choice">Birthday:</label>
-        <select name="select-choice" id="select-choice" >
+        <select name="select-choice" id="select-choice"  >
             <option value="0" selected disabled>Month</option>
             <option value="january"  >Jan</option>
             <option value="february">Feb</option>
@@ -59,7 +59,7 @@
             <option value="december">Dec</option>
         </select>
         
-        <select name="birthday-day" id="day">
+        <select name="birthday-day" id="day" required>
             <option value="0" selected disabled>Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -212,7 +212,7 @@
     
         <div>
         <label for="checkbox">I agree to the terms and conditions</label>
-        <input type="checkbox" name="checkbox" id="checkbox" />
+        <input type="checkbox" name="checkbox" id="checkbox" required/>
         </div>
     
         <div>
