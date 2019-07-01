@@ -1,0 +1,17 @@
+p{
+    font-family: 'Pridi', serif;
+    margin: 1.66%;
+}
+img{
+    float: left;
+    width: 30%;
+    margin:1.66%;
+}
+h1{
+    font-family: 'Pridi', serif;
+    margin: 1.66%;
+    border-bottom:2px solid #777777;
+    padding:20px;
+    width:30%;
+
+}
